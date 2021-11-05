@@ -11,8 +11,7 @@ A small Lumen adaptor for the PHP Swiss Emphemeris.
 `php-sweph` is work derived from the original release of the Astrodienst Swiss Ephemeris library.
 To use `php-sweph`, the licensing conditions imposed by Astrodienst for Swiss Ephemeris must
 be fulfilled. A copy of the license file
-is found in `sweph/src/LICENSE`. Please note: since Swiss Ephemeris release 2.10.01 the GPL license has been
-replaced with the AGPL license, as one of the options in Astrodienst's dual licensing model.
+is found in `LICENSE.md`. Please read more on the `php-sweph` library.
 
 ## Lumen PHP Framework
 
