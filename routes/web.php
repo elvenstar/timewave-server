@@ -14,7 +14,7 @@
 */
 
 $router->get('/', function () use ($router) {
-    return $router->app->version();
+    return 'Timewave Server: PHP Swiss Emphemeris.';
 });
 
 $router->post('/api/astro', function (Illuminate\Http\Request $request) use ($router) {
