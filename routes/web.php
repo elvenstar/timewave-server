@@ -177,6 +177,10 @@ $router->post('/api/astro', function (Illuminate\Http\Request $request) use ($ro
 
         return solar_return($timestamp, $lat, $lng, $year);
       }
+      case 'PROGRESSED': {
+        // timestamp calculated on frontend
+        return natal_chart($timestamp, $lat, $lng);
+      }
       default: {
         return natal_chart($timestamp, $lat, $lng);
       }
